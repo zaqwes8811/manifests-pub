@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2020, RTE (http://www.rte-france.com) -->
+<!-- Copyright (C) 2023 Savoir-faire Linux, Inc. -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+  <!-- Remote repositories definition -->
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="seapath" fetch="https://github.com/seapath"/>
+  <remote name="github" fetch="https://github.com"/>
+  <remote name="oe" fetch="https://github.com/openembedded"/>
+
+  <!-- Upstream Yocto & OpenEmbedded Projects -->
+  <project name="poky" revision="dunfell" remote="yocto" path="sources/poky"/>
+</manifest>
